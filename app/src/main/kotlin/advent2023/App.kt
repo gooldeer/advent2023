@@ -4,15 +4,18 @@
 package advent2023
 
 import advent2023.day1.day1FirstStar
+import advent2023.day2.day2FirstStar
+import advent2023.day2.day2SecondStar
 
 class App {
     val greeting: String
         get() {
-            return "Hello World!"
+            return "Hello Advent!"
         }
 }
 
 fun main() {
     println(App().greeting)
-    println(day1FirstStar())
+    println(day2FirstStar(12, 13, 14))
+    println(day2SecondStar())
 }
