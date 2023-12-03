@@ -6,6 +6,9 @@ package advent2023
 import advent2023.day1.day1FirstStar
 import advent2023.day2.day2FirstStar
 import advent2023.day2.day2SecondStar
+import advent2023.day3.day3Part1
+import advent2023.day3.day3Part2
+import day3Test
 
 class App {
     val greeting: String
@@ -18,4 +21,7 @@ fun main() {
     println(App().greeting)
     println(day2FirstStar(12, 13, 14))
     println(day2SecondStar())
+    println(day3Part1())
+    println(day3Part2())
+    println(day3Test())
 }
